@@ -39,7 +39,7 @@
 		37F34C011C0265AD00D36B5B /* SwiftCBOR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCBOR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F34C041C0265AE00D36B5B /* SwiftCBOR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCBOR.h; sourceTree = "<group>"; };
 		37F34C061C0265AE00D36B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37F34C0B1C0265AE00D36B5B /* SwiftCBORTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCBORTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F34C0B1C0265AE00D36B5B /* SwiftCBORTests1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCBORTests1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F34C101C0265AE00D36B5B /* CBORDecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBORDecoderTests.swift; sourceTree = "<group>"; };
 		37F34C121C0265AE00D36B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37F34C1B1C0328B300D36B5B /* CBORDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBORDecoder.swift; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				37F34C011C0265AD00D36B5B /* SwiftCBOR.framework */,
-				37F34C0B1C0265AE00D36B5B /* SwiftCBORTests.xctest */,
+				37F34C0B1C0265AE00D36B5B /* SwiftCBORTests1.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 			productReference = 37F34C011C0265AD00D36B5B /* SwiftCBOR.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		37F34C0A1C0265AE00D36B5B /* SwiftCBORTests */ = {
+		37F34C0A1C0265AE00D36B5B /* SwiftCBORTests1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37F34C181C0265AE00D36B5B /* Build configuration list for PBXNativeTarget "SwiftCBORTests" */;
+			buildConfigurationList = 37F34C181C0265AE00D36B5B /* Build configuration list for PBXNativeTarget "SwiftCBORTests1" */;
 			buildPhases = (
 				37F34C071C0265AE00D36B5B /* Sources */,
 				37F34C081C0265AE00D36B5B /* Frameworks */,
@@ -168,9 +168,9 @@
 			dependencies = (
 				37F34C0E1C0265AE00D36B5B /* PBXTargetDependency */,
 			);
-			name = SwiftCBORTests;
+			name = SwiftCBORTests1;
 			productName = SwiftCBORTests;
-			productReference = 37F34C0B1C0265AE00D36B5B /* SwiftCBORTests.xctest */;
+			productReference = 37F34C0B1C0265AE00D36B5B /* SwiftCBORTests1.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 			projectRoot = "";
 			targets = (
 				37F34C001C0265AD00D36B5B /* SwiftCBOR */,
-				37F34C0A1C0265AE00D36B5B /* SwiftCBORTests */,
+				37F34C0A1C0265AE00D36B5B /* SwiftCBORTests1 */,
 			);
 		};
 /* End PBXProject section */
@@ -458,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37F34C181C0265AE00D36B5B /* Build configuration list for PBXNativeTarget "SwiftCBORTests" */ = {
+		37F34C181C0265AE00D36B5B /* Build configuration list for PBXNativeTarget "SwiftCBORTests1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37F34C191C0265AE00D36B5B /* Debug */,
