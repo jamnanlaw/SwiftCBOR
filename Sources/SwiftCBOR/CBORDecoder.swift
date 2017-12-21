@@ -143,9 +143,9 @@ public class CBORDecoder {
 		case 0xf7: return CBOR.undefined
 		case 0xf8: return CBOR.simple(try istream.popByte())
 
-		case 0xf9:
-            let ptr = UnsafeRawPointer(Array(try istream.popBytes(2).reversed())).bindMemory(to: UInt16.self, capacity: 1)
-            return CBOR.half(loadFromF16(ptr))
+//        case 0xf9:
+//            let ptr = UnsafeRawPointer(Array(try istream.popBytes(2).reversed())).bindMemory(to: UInt16.self, capacity: 1)
+//            return CBOR.half(loadFromF16(ptr))
 		case 0xfa:
             return CBOR.float(UnsafeRawPointer(Array(try istream.popBytes(4).reversed())).load(as: Float32.self))
 		case 0xfb:
